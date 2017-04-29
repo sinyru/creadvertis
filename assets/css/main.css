@@ -368,3 +368,34 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
     font-weight: bold;
     font-family: fantasy;
 }
+
+@media only screen and (max-width: 768px) {
+  .about-us {margin: auto 20px;}
+  .company-title {font-size: 7em;}
+  .subtitle {font-size: 5.7em}
+}
+
+@media only screen and (max-width: 703px) {
+  .about-us {margin: auto 20px;}
+  .company-title {font-size: 7em;}
+  .subtitle {font-size: 5.5em}
+}
+
+@media only screen and (max-width: 414px) {
+  .about-us {margin: auto 15px;}
+  .company-title {font-size: 4.2em;}
+  .subtitle {font-size: 4.2em}
+}
+
+
+@media only screen and (max-width: 320px) {
+  .about-us {margin: auto 15px;}
+  .company-title {font-size: 3.8em;}
+  .subtitle {font-size: 4.0em}
+}
+
+.send-email {
+  color: red;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
