@@ -149,13 +149,21 @@
 				<p>Feel free to email me, or drop me a line in Twitter!</p>
 				<p><b>customerservice@creadvertis.com</b><br><br></p>
 
-        <form action="mailto:znchen720@gmail.com" method="POST" enctype="text/plain">
-          <input name="action" value="submit" type="hidden"> Name:<br>
-          <input name="name" size="30" type="text"><br> Phone Number:<br>
-          <input name="email" size="30" type="text"><br> Comments:<br>
-          <textarea name="message" rows="7" cols="30">
+        <!-- <form method="post" action="sendmail.php">
+          <input value="submit" type="hidden"> Name:<br>
+          <input name="name" size="30" type="text"><br> Email:<br>
+          <input name="email" size="30" type="text"><br> Phone Number:<br>
+          <input name="phone" size="30" type="text"><br> Comments:<br>
+          <textarea name="comments" rows="7" cols="30">
           </textarea><br>
           <input class="send-email" value="Send email" type="submit">
+        </form> -->
+
+        <form method="post" action="sendmail.php">
+          Email: <input name="email" type="text" /><br>
+          Message:<br>
+          <textarea name="message" rows="15" cols="40"></textarea><br>
+          <input type="submit" />
         </form>
 
 
@@ -166,8 +174,12 @@
 
           <p>47 Washington St. #601 Quincy MA 02169</p>
 
+
+
+
 			</div>
 		</div>
+
 
 	</div>
 </section>
