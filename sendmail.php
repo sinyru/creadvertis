@@ -1,10 +1,8 @@
 <?php
-  $name = $_REQUEST['name'] ;
   $email = $_REQUEST['email'] ;
-  $phone = $_REQUEST['phone'] ;
-  $message = $_REQUEST['comments'] ;
+  $message = $_REQUEST['message'] ;
 
   mail( "znchen720@gmail.com", "Feedback Form Results",
     $message, "From: $email" );
-  header( "" );
+  header( "Location: http://www.github.com/sinyru" );
 ?>
